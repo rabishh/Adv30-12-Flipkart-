@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+.container{
+    display:flex;
+    /* flex-direction:column; */
+    background-color:rgb(19, 34, 235);
+    height:5rem;
+}
+.upper{
+    display:flex;
+    height:5rem;
+    width:70vw;
+    gap:1rem;
+    justify-content: center;
+    /* margin-top:-2rem; */
+}
+#explore{
+    /* margin-left:1rem; */
+    height:1.5rem;
+    margin-top:2.6rem;
+    cursor:pointer;
+}
+.exp-text{
+    margin-top:2.5rem;
+    margin-left:-6rem;
+    cursor:pointer;
+}
+#input{
+   height:2rem;
+   width:30vw;
+   margin-top:1rem;
+   text-align:center;
+}
+#lbl{
+    background-color: cornsilk;
+    cursor:pointer;
+}
+
+.upper h1 , h4{
+    color:#fff;
+    font-family:sans-serif;
+    cursor:pointer;
+}
+.upper-left{
+    display:flex;
+    justify-content: space-around;
+    width:30vw;
+}
+.btn{
+    width:8rem;
+    height:3rem;
+    margin-top:1rem;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color:coral;
+    color:white;
+    transform:scale(1.3)
+}
+.upper-left h2{
+    margin-top:1.5rem;
+    color:#fff;
+    cursor:pointer;
+}
+.container2{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height:3rem;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-content:center;
+    width:100vw;
+}
+.container2 a{
+    text-decoration:none;
+    font-family:sans-serif;
+}
+.container3{
+    /* border:1px solid black; */
+    height:100vh;
+    width:100vw;
+    display:flex;
+}
+.left1{
+    flex:1;
+    /* border:1px solid red; */
+    overflow-y:hidden;
+    
+}
+.right1{
+    flex:4;
+    display:flex;
+    /* border:1px solid green; */
+}
+table{
+   height:100vh;
+   background-color: lightgray;
+}
+td{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width:30vw;
+    margin:1rem;
+}
+.flass{
+    width:6vw;
+}
+/* .right1{
+    /* display:flex;
+    height: 100vh; */
+.rigth-cnt1{
+    flex:3;
+    /* background-color:lime; */
+    /* width:300px; */
+    height: 100vh;
+}
+.right2{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    /* border:1px solid black; */
+}
+.right-cnt2{
+    align-items: center;
+    height:50vh;
+    /* border:1px solid red; */
+    
+}
+.part1{
+    display:flex;
+    justify-content:space-around;
+}
+.storage li{
+   font-size:1.5rem;
+}
+.right-cnt2-1{
+    display:flex;
+    justify-content:space-around;
+    margin-top:3rem;
+    
+}
+.right-cnt2 h3 , h4{
+    text-align: center;
+    color:black;
+}
+@media (max-width:1000px){
+    .btn{
+    width:5rem;
+    height:2rem;
+    }
+    .upper-left h2{
+        font-size:1rem;
+        color:black;
+        cursor:pointer;
+    }
+    .upper h1 , h4{
+        color:goldenrod;
+        font-family:sans-serif;
+        cursor:pointer;
+        font-size:1.2rem;
+        margin-top:.5rem;
+    }
+    .phone-img1{
+        height:18rem;
+        width:20vw;
+    }
+    .storage li{
+        font-size:1rem;
+     }
+     .rigth-cnt1 h1{
+        font-size:1.3rem;
+     }
+    .storage h2{
+        font-size:1rem;
+    }
+    .right-cnt2 h3,h4{
+        font-size:.8rem;
+    }
+    .right-cnt2-1{
+        display:table;
+    }
+    .right-cnt2-1 h1{
+        font-size:1.3rem;
+    }
+    .flass{
+        width:17vw;
+    }
+}
+@media (max-width:600px){
+    .btn{
+    width:3rem;
+    height:1.5rem;
+    }
+    .upper-left h2{
+        font-size:.8rem;
+    }
+    .upper h1 , h4{
+        font-size:1rem;
+        margin-top:.5rem;
+        margin-left:.5rem;
+    }
+    .part1{
+        display:table;
+    }
+    .phone-img1{
+        height:30rem;
+        width:30vw;
+        margin-left:3rem;
+    }
+    /* .storage li{
+        font-size:1rem;
+     }
+     .rigth-cnt1 h1{
+        font-size:1.3rem;
+     }
+    .storage h2{
+        font-size:1rem;
+    }
+    .right-cnt2 h3,h4{
+        font-size:.8rem;
+    }
+    .right-cnt2-1{
+        display:table;
+    }
+    .right-cnt2-1 h1{
+        font-size:1.3rem;
+    }
+    .flass{
+        width:17vw;
+    } */
+}
+
